@@ -57,7 +57,7 @@ function search(){
      * Além disso, a função removeAllChildren abaixo também pode ser útil para o desenvolvimento da solução
      */
     var searchText = document.getElementById("name").value.toUpperCase();
-     var searchDiv = document.getElementById("search");
+    var searchDiv = document.getElementById("search");
      removeAllChildren(searchDiv);
     for (var i = 0; i < data.length; i++) {
         var name = data[i].name.toUpperCase();
